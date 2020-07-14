@@ -1,0 +1,19 @@
+{
+  "name": "vuejs-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.production.js",
+    "startDev": "webpack-dev-server --progress --hot",
+    "clear": "rm -rf lib package target tree.ver tree.zip",
+    "compileWeb": "npm run clear && webpack --config webpack.config.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hoposon/vuejs-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Lukas Houf"
+}
